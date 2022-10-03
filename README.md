@@ -22,6 +22,20 @@ mutation register {
 }
 ```
 
+expected resule 
+
+```json
+{
+  "data": {
+    "register": {
+      "authToken": {
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjU0NDQ3NzYsImp0aSI6IjIiLCJpYXQiOjE2NjQ4Mzk5NzYsImlzcyI6Im1lZXRtZXVwIn0.erk1xgejBMJd2k0DNQZEZ-SzN6RxO6U44Jz_75zHmzk"
+      }
+    }
+  }
+}
+```
+
 ## References
 
 * [https://github.com/EQuimper/youtube-golang-graphql-tutorial](https://github.com/EQuimper/youtube-golang-graphql-tutorial)
