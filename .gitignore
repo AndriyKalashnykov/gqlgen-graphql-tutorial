@@ -1,0 +1,5 @@
+.idea
+.env
+server
+graphql/generated
+graphql/models

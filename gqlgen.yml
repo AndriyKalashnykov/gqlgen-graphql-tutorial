@@ -1,0 +1,26 @@
+# .gqlgen.yml example
+#
+# Refer to https://gqlgen.com/config/
+# for detailed .gqlgen.yml documentation.
+
+schema:
+- schema.graphql
+exec:
+  filename: graphql/generated/generated.go
+model:
+  filename: models/models_gen.go
+models:
+  User:
+    model: github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/models.User
+    fields:
+      meetups:
+        resolver: true
+  Meetup:
+    model: github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/models.Meetup
+    fields:
+      user:
+        resolver: true
+resolver:
+  filename: graphql/resolver.go
+  type: Resolver
+autobind: []
