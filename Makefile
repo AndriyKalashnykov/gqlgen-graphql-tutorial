@@ -1,4 +1,5 @@
 .DEFAULT_GOAL := help
+GOFLAGS=-mod=mod
 
 #help: @ List available tasks
 help:
@@ -9,8 +10,8 @@ help:
 
 #generate: @ Generate GraphQL go source code
 generate:
-#	@sudo rm -rf graph/model
-#	@sudo rm -rf graph/generated
+	@sudo rm -rf graph/models
+	@sudo rm -rf graph/generated
 	@export GOFLAGS=$(GOFLAGS); go run github.com/99designs/gqlgen generate
 
 #test: @ Run tests
