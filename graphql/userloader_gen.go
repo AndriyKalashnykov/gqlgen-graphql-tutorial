@@ -3,10 +3,9 @@
 package graphql
 
 import (
+	"github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/models"
 	"sync"
 	"time"
-
-	"github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/models"
 )
 
 // UserLoaderConfig captures the config to create a new UserLoader

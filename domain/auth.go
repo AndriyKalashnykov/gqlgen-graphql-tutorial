@@ -3,9 +3,9 @@ package domain
 import (
 	"context"
 	"errors"
-	"log"
-
 	"github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/models"
+
+	"log"
 )
 
 func (d *Domain) Login(ctx context.Context, input models.LoginInput) (*models.AuthResponse, error) {

@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/models"
 
 	"github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/middleware"
-	"github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/models"
 )
 
 func (d *Domain) DeleteMeetup(ctx context.Context, id string) (bool, error) {

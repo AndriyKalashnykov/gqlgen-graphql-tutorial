@@ -1,6 +1,8 @@
 package models
 
-import "github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/validator"
+import (
+	"github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/validator"
+)
 
 func (r RegisterInput) Validate() (bool, map[string]string) {
 	v := validator.New()

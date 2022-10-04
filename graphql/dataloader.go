@@ -2,12 +2,11 @@ package graphql
 
 import (
 	"context"
+	"github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/models"
 	"net/http"
 	"time"
 
 	"github.com/go-pg/pg/v9"
-
-	"github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/models"
 )
 
 const userloaderKey = "userloader"

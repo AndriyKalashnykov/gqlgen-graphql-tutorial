@@ -6,7 +6,7 @@
 schema:
 - schema.graphql
 exec:
-  filename: graphql/generated/generated.go
+  filename: graphql/generated.go
 model:
   filename: models/models_gen.go
 models:

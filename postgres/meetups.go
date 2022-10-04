@@ -2,10 +2,9 @@ package postgres
 
 import (
 	"fmt"
+	"github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/models"
 
 	"github.com/go-pg/pg/v9"
-
-	"github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/models"
 )
 
 type MeetupsRepo struct {

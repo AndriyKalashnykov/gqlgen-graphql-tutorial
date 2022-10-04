@@ -3,7 +3,6 @@ package graphql
 import (
 	"context"
 	"errors"
-
 	"github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/models"
 )
 

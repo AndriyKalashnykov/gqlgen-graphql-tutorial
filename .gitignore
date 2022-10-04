@@ -1,5 +1,5 @@
 .idea
 .env
 server
-graphql/generated
-graphql/models
+graphql/generated.go
+models/models_gen.go

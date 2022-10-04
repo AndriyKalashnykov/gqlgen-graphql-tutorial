@@ -2,6 +2,7 @@ package middleware
 
 import (
 	"context"
+	"github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/models"
 	"net/http"
 	"os"
 	"strings"
@@ -10,7 +11,6 @@ import (
 	"github.com/dgrijalva/jwt-go/request"
 	"github.com/pkg/errors"
 
-	"github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/models"
 	"github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/postgres"
 )
 
