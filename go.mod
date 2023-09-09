@@ -5,7 +5,9 @@ go 1.21
 require (
 	github.com/99designs/gqlgen v0.17.37
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
-	github.com/go-chi/chi v4.1.2+incompatible
+	github.com/go-chi/chi v1.5.5
+	github.com/go-chi/chi/v5 v5.0.10
+	github.com/go-pg/pg/v10 v10.11.1
 	github.com/go-pg/pg/v9 v9.2.1
 	github.com/pkg/errors v0.9.1
 	github.com/vektah/gqlparser v1.3.1
@@ -24,8 +26,8 @@ require (
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
-	github.com/onsi/ginkgo v1.14.1 // indirect
-	github.com/onsi/gomega v1.10.2 // indirect
+	github.com/onsi/ginkgo v1.14.2 // indirect
+	github.com/onsi/gomega v1.10.3 // indirect
 	github.com/segmentio/asm v1.2.0 // indirect
 	github.com/segmentio/encoding v0.3.6 // indirect
 	github.com/vmihailenco/bufpool v0.1.11 // indirect
