@@ -10,8 +10,8 @@ import (
 	"github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/graphql"
 	customMiddleware "github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/middleware"
 	"github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/postgres"
-	"github.com/go-chi/chi"
-	"github.com/go-chi/chi/middleware"
+	"github.com/go-chi/chi/v5"
+	"github.com/go-chi/chi/v5/middleware"
 	"github.com/go-pg/pg/v9"
 )
 
