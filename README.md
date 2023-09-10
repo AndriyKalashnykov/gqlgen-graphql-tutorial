@@ -22,7 +22,7 @@ mutation register {
 }
 ```
 
-expected resule 
+expected result:
 
 ```json
 {
