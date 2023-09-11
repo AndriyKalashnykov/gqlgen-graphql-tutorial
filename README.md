@@ -3,6 +3,9 @@
 ## Mutations
 
 ### register
+```bash
+xdg-open http://localhost:8080/
+```
 
 ```graphql
 mutation register {

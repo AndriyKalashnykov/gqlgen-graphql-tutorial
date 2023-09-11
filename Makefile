@@ -8,9 +8,11 @@ help:
 	@echo "Commands :"
 	@grep -E '[a-zA-Z\.\-]+:.*?@ .*$$' $(MAKEFILE_LIST)| tr -d '#' | awk 'BEGIN {FS = ":.*?@ "}; {printf "\033[32m%-14s\033[0m - %s\n", $$1, $$2}'
 
+#docker-up: @ Docker Compose Up
 docker-up: docker-down
 	docker-compose -f "docker-compose.yml" up
 
+#docker-down: @ Docker Compose Down
 docker-down:
 	docker-compose -f "docker-compose.yml" down --volumes
 
