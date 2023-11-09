@@ -6,9 +6,11 @@ require (
 	github.com/99designs/gqlgen v0.17.40
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/go-chi/chi/v5 v5.0.10
+	github.com/go-pg/pg/v10 v10.11.2
 	github.com/go-pg/pg/v9 v9.2.1
 	github.com/pkg/errors v0.9.1
 	github.com/vektah/gqlparser v1.3.1
+	github.com/vektah/gqlparser/v2 v2.5.10
 	golang.org/x/crypto v0.15.0
 )
 
@@ -28,7 +30,6 @@ require (
 	github.com/segmentio/asm v1.2.0 // indirect
 	github.com/segmentio/encoding v0.3.6 // indirect
 	github.com/sosodev/duration v1.1.0 // indirect
-	github.com/vektah/gqlparser/v2 v2.5.10 // indirect
 	github.com/vmihailenco/bufpool v0.1.11 // indirect
 	github.com/vmihailenco/msgpack/v4 v4.3.13 // indirect
 	github.com/vmihailenco/tagparser v0.1.2 // indirect
