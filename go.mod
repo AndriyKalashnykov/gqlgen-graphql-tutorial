@@ -7,9 +7,9 @@ require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/go-chi/chi/v5 v5.0.10
 	github.com/go-pg/pg/v10 v10.11.2
-	github.com/go-pg/pg/v9 v9.2.1
+	github.com/go-pg/pg/v10 v10.11.2
 	github.com/pkg/errors v0.9.1
-	github.com/vektah/gqlparser v1.3.1
+	github.com/vektah/gqlparser/v2 v2.5.10
 	github.com/vektah/gqlparser/v2 v2.5.10
 	golang.org/x/crypto v0.16.0
 )
