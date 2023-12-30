@@ -3,7 +3,7 @@ module github.com/AndriyKalashnykov/gqlgen-graphql-tutorial
 go 1.21
 
 require (
-	github.com/99designs/gqlgen v0.17.41
+	github.com/99designs/gqlgen v0.17.42
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/go-chi/chi/v5 v5.0.11
 	github.com/go-pg/pg/v9 v9.2.1
