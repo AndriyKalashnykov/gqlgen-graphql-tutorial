@@ -12,7 +12,7 @@ import (
 	"github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/postgres"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
-	"github.com/go-pg/pg/v9"
+	"github.com/go-pg/pg/v10"
 )
 
 const defaultPort = "8080"
