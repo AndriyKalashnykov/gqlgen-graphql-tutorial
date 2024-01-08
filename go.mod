@@ -8,7 +8,7 @@ require (
 	github.com/go-chi/chi/v5 v5.0.11
 	github.com/go-pg/pg/v10 v10.12.0
 	github.com/pkg/errors v0.9.1
-	github.com/vektah/gqlparser v1.3.1
+	github.com/vektah/gqlparser/v2 v2.5.10
 	github.com/vektah/gqlparser/v2 v2.5.10
 	golang.org/x/crypto v0.17.0
 )
