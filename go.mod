@@ -3,7 +3,7 @@ module github.com/AndriyKalashnykov/gqlgen-graphql-tutorial
 go 1.21
 
 require (
-	github.com/99designs/gqlgen v0.17.43
+	github.com/99designs/gqlgen v0.17.44
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/go-chi/chi/v5 v5.0.11
 	github.com/go-pg/pg/v10 v10.12.0
@@ -15,7 +15,7 @@ require (
 require (
 	github.com/agnivade/levenshtein v1.1.1 // indirect
 	github.com/go-pg/zerochecker v0.2.0 // indirect
-	github.com/google/uuid v1.5.0 // indirect
+	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/websocket v1.5.1 // indirect
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
@@ -26,7 +26,7 @@ require (
 	github.com/vmihailenco/msgpack/v5 v5.4.1 // indirect
 	github.com/vmihailenco/tagparser v0.1.2 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
-	golang.org/x/net v0.19.0 // indirect
+	golang.org/x/net v0.20.0 // indirect
 	golang.org/x/sys v0.17.0 // indirect
 	mellium.im/sasl v0.3.1 // indirect
 )
