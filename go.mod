@@ -5,7 +5,7 @@ go 1.21
 require (
 	github.com/99designs/gqlgen v0.17.49
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
-	github.com/go-chi/chi/v5 v5.0.12
+	github.com/go-chi/chi/v5 v5.0.13
 	github.com/go-pg/pg/v10 v10.13.0
 	github.com/pkg/errors v0.9.1
 	github.com/vektah/gqlparser/v2 v2.5.16
