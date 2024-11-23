@@ -18,8 +18,8 @@ docker-down:
 
 #generate: @ Generate GraphQL go source code
 generate:
-	@sudo rm -rf graph/models
-	@sudo rm -rf graph/generated
+	@rm -rf graph/models
+	rm -rf graph/generated
 	@export GOFLAGS=$(GOFLAGS); go run github.com/99designs/gqlgen generate
 
 #test: @ Run tests
