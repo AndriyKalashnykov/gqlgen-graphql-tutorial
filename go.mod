@@ -3,13 +3,13 @@ module github.com/AndriyKalashnykov/gqlgen-graphql-tutorial
 go 1.23.2
 
 require (
-	github.com/99designs/gqlgen v0.17.49
+	github.com/99designs/gqlgen v0.17.78
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
-	github.com/go-chi/chi/v5 v5.1.0
-	github.com/go-pg/pg/v10 v10.13.0
+	github.com/go-chi/chi/v5 v5.2.3
+	github.com/go-pg/pg/v10 v10.15.0
 	github.com/pkg/errors v0.9.1
-	github.com/vektah/gqlparser/v2 v2.5.16
-	golang.org/x/crypto v0.27.0
+	github.com/vektah/gqlparser/v2 v2.5.30
+	golang.org/x/crypto v0.42.0
 )
 
 require (
