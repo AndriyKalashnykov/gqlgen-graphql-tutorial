@@ -23,15 +23,15 @@ generate:
 	@export GOFLAGS=$(GOFLAGS); go run github.com/99designs/gqlgen generate
 
 #test: @ Run tests
-test: generate
+test:
 	@export GOFLAGS=$(GOFLAGS); go test -v ./...
 
 #build: @ Build Threeport GraphQL API
-build: generate
+build:
 	@export GOFLAGS=$(GOFLAGS); go build -o server server.go
 
 #run: @ Run Threeport GraphQL API
-run: generate
+run:
 	@export GOFLAGS=$(GOFLAGS); go run server.go -env-file=.env
 
 #get: @ Download and install packages
