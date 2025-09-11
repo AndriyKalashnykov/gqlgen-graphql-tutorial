@@ -17,8 +17,9 @@ jobs:
       - name: Install Go
         uses: actions/setup-go@v6
         with:
-          go-version-file: "go.mod"
+          go-version-file: 'go.mod'
           cache: true
+
       - name: Run ${{ matrix.name }} tests
         run: make test
 
@@ -26,8 +27,8 @@ jobs:
     timeout-minutes: 20
     strategy:
       matrix:
-        go-version: [1.23]
         os: [ubuntu-latest, macos-latest]
+
     runs-on: ${{ matrix.os }}
     name: build (${{ matrix.os }})
 
@@ -40,7 +41,8 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v6
         with:
-          go-version: ${{ matrix.go-version }}
+          go-version-file: 'go.mod'
+          cache: true
 
       - name: Build
         run: make build
