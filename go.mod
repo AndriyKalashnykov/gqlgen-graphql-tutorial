@@ -9,7 +9,7 @@ require (
 	github.com/go-pg/pg/v10 v10.15.0
 	github.com/pkg/errors v0.9.1
 	github.com/vektah/gqlparser/v2 v2.5.31
-	golang.org/x/crypto v0.44.0
+	golang.org/x/crypto v0.45.0
 )
 
 require (
