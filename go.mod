@@ -9,7 +9,7 @@ require (
 	github.com/go-pg/pg/v10 v10.15.0
 	github.com/pkg/errors v0.9.1
 	github.com/vektah/gqlparser/v2 v2.5.32
-	golang.org/x/crypto v0.48.0
+	golang.org/x/crypto v0.49.0
 )
 
 require (
@@ -27,6 +27,6 @@ require (
 	github.com/vmihailenco/tagparser v0.1.2 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 	golang.org/x/sync v0.19.0 // indirect
-	golang.org/x/sys v0.41.0 // indirect
+	golang.org/x/sys v0.42.0 // indirect
 	mellium.im/sasl v0.3.2 // indirect
 )
