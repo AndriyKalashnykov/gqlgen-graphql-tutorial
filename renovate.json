@@ -2,7 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:best-practices",
-    ":approveMajorUpdates",
     ":label(dependencies)",
     ":semanticCommitType(chore)",
     ":automergePatch",
@@ -47,7 +46,7 @@
         "ref",
         "none",
         "security",
-        "grop",
+        "group",
         "unpin"
       ],
       "automerge": true,

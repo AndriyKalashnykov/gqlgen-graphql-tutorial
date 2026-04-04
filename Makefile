@@ -3,7 +3,6 @@ GOFLAGS=-mod=mod
 
 #help: @ List available tasks
 help:
-	@clear
 	@echo "Usage: make COMMAND"
 	@echo "Commands :"
 	@grep -E '[a-zA-Z\.\-]+:.*?@ .*$$' $(MAKEFILE_LIST)| tr -d '#' | awk 'BEGIN {FS = ":.*?@ "}; {printf "\033[32m%-14s\033[0m - %s\n", $$1, $$2}'
@@ -26,11 +25,11 @@ generate:
 test: generate
 	@export GOFLAGS=$(GOFLAGS); go test -v ./...
 
-#build: @ Build Threeport GraphQL API
+#build: @ Build GraphQL API
 build: generate
 	@export GOFLAGS=$(GOFLAGS); go build -o server server.go
 
-#run: @ Run Threeport GraphQL API
+#run: @ Run GraphQL API
 run: build
 	@export GOFLAGS=$(GOFLAGS); go run server.go -env-file=.env
 
@@ -45,3 +44,5 @@ deps:
 #update: @ Update dependencies to latest versions
 update:
 	@export GOPRIVATE=$(GOPRIVATE); export GOFLAGS=$(GOFLAGS); go get -u; go mod tidy
+
+.PHONY: help docker-up docker-down generate test build run get deps update

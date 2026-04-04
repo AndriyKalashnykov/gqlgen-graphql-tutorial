@@ -1,5 +1,9 @@
 # gqlgen-graphql-tutorial
 
+[![ci](https://github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/actions/workflows/ci.yml/badge.svg)](https://github.com/AndriyKalashnykov/gqlgen-graphql-tutorial/actions/workflows/ci.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/AndriyKalashnykov/gqlgen-graphql-tutorial)](https://goreportcard.com/report/github.com/AndriyKalashnykov/gqlgen-graphql-tutorial)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
+
 ## Mutations
 
 ### register
